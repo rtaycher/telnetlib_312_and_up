@@ -1,17 +1,17 @@
 [project]
-name = "telnetlib_312_and_up"  # Required
+name = "telnetlib_313_and_up"  # Required
 version = "3.13.1"  # Required
-description = "A sample Python project"  # Optional
+description = "copy of telnetlib for python 3.13+"
 readme = "README.md" # Optional
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 keywords = ["telnet"]  # Optional
 
 authors = [
-  {name = "Guido van Rossum", email = "guido@python.org" } # Optional
+  {name = "Guido van Rossum", email = "guido@python.org" }
 ]
 
 maintainers = [
-  {name = "Roman A. Taycher", email = "maintainer@example.com" } # Optional
+  {name = "Roman A. Taycher", email = " rtaycher.devmail@gmail.com " }
 ]
 
 classifiers = [  
