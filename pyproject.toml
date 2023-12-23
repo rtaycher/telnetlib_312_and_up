@@ -21,3 +21,18 @@ classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.13",
 ]
+
+[tool.poetry]
+name = "telnetlib_313_and_up"  # Required
+version = "3.13.1"  # Required
+description = "copy of telnetlib for python 3.13+"
+readme = "README.md" # Optional
+keywords = ["telnet"]  # Optional
+authors = ["Guido van Rossum <guido@python.org>"]
+
+packages = [
+    { include = "telnetlib" }
+]
+[tool.poetry.dependencies]
+python = ">=3.13" 
+
